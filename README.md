@@ -5,7 +5,6 @@
 First off, you'll need to ensure python and pip are working. This code only works on Python3. You can do this with:
 ```
 sudo apt install python3 python3-pip
-
 ```
 Next, ensure pip3 is up-to-date with:
 
@@ -15,7 +14,6 @@ sudo pip3 install --upgrade setuptools
 Now, onto the python libraries:
 ```
 pip3 install RPI.GPIO && pip3 install adafruit_blinka
-
 ```
 Obviously, if you run into any permission errors, run with sudo.
 
