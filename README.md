@@ -29,7 +29,6 @@ Now you can make you AIO feed. In this example I called the feed `pitemp`, you c
 
 It's simple really, just type `python3 pitemp.py` and away you go! There is one problem though. It won't start on boot. I fixed this by adding it as a system daemon, although that approach is more complicated than it has to be. Simply putting `/usr/bin/python3 /home/pi/pitemp.py` (or wherever it is) above `exit 0` in /etc/rc.local should do the trick. Or add a cron job with `crontab -e`. If you run into issues, just open a issue and I will be happy to work with you on finding a solution!
 
-- [ ] #1
-- [ ] Build relase package
+- [ ] Build release package
 - [ ] Add prompt to enter key and username during setup
 - [ ] Improve debugging
